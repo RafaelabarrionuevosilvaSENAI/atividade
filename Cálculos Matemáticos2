@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 let min = parseFloat(prompt("Qual o valor minimo?"));
 let max = parseFloat(prompt("Qual o valor maximo?"));
 

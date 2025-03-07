@@ -1,8 +1,12 @@
-function  calcularFatorial(n) {
-   let mutiplicação = 6;
-for (let i = 1; i <= 10; i++) {
-  mutiplicação *= i;
+function  calcularFatorial(numFatorial) {
+   let result = 1;
+if(numFatorial < 1) {
+ return { "erro": "Input menor que 1"}
 }
-console.log(`A mutiplicação é: ${mutiplicação}`);
+for (let i = numFatorial; i >= 1; i--) {
+  result *= i;
 }
-console.log(calcularFatorial(4));
+return result; //número
+//console.log(`A mutiplicação é: ${mutiplicação}`);
+}
+console.log(calcularFatorial(numFatorial));

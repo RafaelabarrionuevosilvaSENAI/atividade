@@ -1,0 +1,9 @@
+let texto = prompt("Diga uma palavra");
+
+
+ function contarLetras(texto) {
+texto = texto.replaceAll(" ", "");
+console.log(texto.length)
+ }
+
+console.log(contarLetras(texto));

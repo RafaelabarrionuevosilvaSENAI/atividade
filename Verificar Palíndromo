@@ -1,1 +1,15 @@
+let texto = prompt("Digite uma frase ");
 
+
+function ehPalindromo(texto) {
+    textoLower = texto.toLowerCase();
+    textoSemEspaco = textoLower.replace(/ /g, "")
+    palindromo = textoSemEspaco.split("").reverse().join("");
+        if(textoSemEspaco === palindromo) {
+            return texto + " É um palindromo"
+        }else{
+           return texto + " Não é um palindromo" 
+        }
+}
+    
+    console.log(ehPalindromo(texto));

@@ -1,0 +1,10 @@
+let a = parseFloat(prompt("Qual numero?"));
+let b = parseFloat(prompt("Qual numero?"));
+
+function calcularHipotenusa(a, b) {
+  return Math.sqrt(a * a + b * b);
+}
+
+console.log(calcularHipotenusa(3, 4));
+console.log(calcularHipotenusa(5, 12));
+console.log(calcularHipotenusa(0, 0));

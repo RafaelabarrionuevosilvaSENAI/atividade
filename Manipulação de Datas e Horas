@@ -3,6 +3,21 @@ function obterDataAtual() {
     let data = new Date();
     console.log(data.toLocaleDateString("pt-BR"));
    
+return data;
 }
 
 console.log(obterDataAtual());
+
+
+
+
+function obterHoraAtual() {
+    let data = new Date();
+    
+//console.log(data.toLocaleTimeString("pt-br")); 
+
+return data;
+}
+
+console.log(obterHoraAtual());
+

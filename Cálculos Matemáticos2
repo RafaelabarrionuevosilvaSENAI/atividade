@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+let min = parseFloat(prompt("Qual o valor minimo?"));
+let max = parseFloat(prompt("Qual o valor maximo?"));
+
+function gerarNumeroAleatorio(min, max) {
+    console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+    
+ 
+}
+
+console.log(gerarNumeroAleatorio(min, max));
+

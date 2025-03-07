@@ -1,10 +1,12 @@
+let hora = new Date();
 
-function obterHoraAtual() {
-    let data = new Date();
+function obterHoraAtual(hora) {
     
-//console.log(data.toLocaleTimeString("pt-br")); 
+return `${hora.getHours()}:${hora.getMinutes()}:${hora.getSeconds()}`;
 
-return data;
+
 }
 
-console.log(obterHoraAtual());
+console.log(obterHoraAtual(hora));
+
+

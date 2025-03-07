@@ -1,0 +1,8 @@
+function obterDataAtual() {
+    
+    let data = new Date();
+    console.log(data.toLocaleDateString("pt-BR"));
+   
+}
+
+console.log(obterDataAtual());
